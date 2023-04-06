@@ -1,0 +1,48 @@
+body {
+	background: linear-gradient(-45deg, #ED739A, #FFE398);
+	background-size: 10000% 1000%;
+	animation: gradient 7s ease infinite;
+	height: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.hi{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+   
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input {
+    background: transparent;
+    border: none;
+    border-left: 1px solid rgba(255,255,255,.5);
+    border-top: 1px solid rgba(255,255,255,.5);
+    padding : 1rem;
+    width: 200px;
+    border-radius: 50px;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter:blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
